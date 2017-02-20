@@ -1,0 +1,138 @@
+body{
+    background: url("../images/bg-pattern.jpg") repeat-x;
+    background-size: contain;
+}
+.logo{
+    margin-bottom: 20px;
+}
+.menu{
+    background:#42988d ;
+
+}
+.navbar-default{
+    border: none;
+    border-top:1px solid #68d6c8;
+    margin: 0;
+}
+.navbar-collapse{
+    padding: 0 !important;
+}
+.navbar-nav{
+    width: 100%;
+}
+.navbar-default .navbar-nav>li{
+    width: 14.25%;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    text-align: center;
+    }
+.navbar-default .navbar-nav>li>a:hover {
+    color: #e4e1bd;
+    background: #766a60;
+}
+.navbar-default .navbar-nav>li.active-link>a {
+    color: #e4e1bd;
+    background: #766a60;
+}
+.navbar-nav li{
+    text-align: justify;
+}
+/*main*/
+/*slide*/
+.img-slide{
+    margin: 20px 0;
+}
+.img-slide img{
+    width: 100%;
+}
+/*block1*/
+.block1{
+    margin: 10px 0;
+}
+.block1 h2{
+    color: #316e66; font-size: 26px;
+}
+.block1 p{
+    color: #5a4535; font-size: 16px; font-weight: 500 ;
+}
+/*block2*/
+.block2-bot{
+    margin: 0!important; padding: 0!important;
+}
+.block2-left{
+    background: white; padding: 10px 15px; margin-bottom: 15px;
+   }
+.block2-left h2{
+    color: #316e66; font-size: 22px;
+}
+.block2-cont1{
+    border-top: 1px dashed #5a4535 ;
+}
+.block2-cont1 h3{
+    color: #5a4535; font-size: 22px;
+}
+.block2-cont1 span{
+    color: #5a4535; font-size: 14px;
+}
+.block2-cont1 p{
+    color: #5a4535; font-size:15px; padding: 10px 0;
+}
+.block2-cont1:last-child{
+    margin-bottom: 30px; border-bottom: 1px dashed #5a4535 ;
+}
+
+.block2-right img{
+    width: 100%;
+    text-align: center;
+
+}
+/*footer*/
+.ft-fon{
+    background: #ac9e94 !important;
+    border-top: none;
+    margin: 15px 0;
+    position: relative;
+
+}
+.menu-foot{
+    background: #ac9e94;
+
+
+}
+.soc-btn >li > a{
+    font-size: 16px!important;
+
+}
+.menu-foot .navbar-nav>li {
+    width: 14% !important;
+    padding: 10px 0;
+    }
+
+.menu-foot .navbar-nav>li>a {
+    color: #594334;
+
+    text-align: center;
+    padding: 0;
+    font-size: 12px;
+
+}
+.menu-foot .navbar-nav>li>a:hover {
+    color: #d8d2cd;
+    background: none;
+}
+.menu-foot  .navbar-nav>li.active-link>a {
+    color: #d8d2cd;
+    background: none;
+}
+
+
+.ft-2 p{
+    text-align: center;  color: #594334;
+}
+.test{
+    background: red;
+}
+.test i{
+    font-size: 30px; margin-right: 60px ;
+}
